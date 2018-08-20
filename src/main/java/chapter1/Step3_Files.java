@@ -21,10 +21,8 @@ public class Step3_Files {
 
     public void readAFile() throws URISyntaxException {
         final Path path = Paths.get(getClass().getClassLoader().getResource("java.txt").toURI());
-        try {
-            try (Stream<String> lines = Files.lines(path)) {
-                lines.forEach(line -> System.out.println(line));
-            }
+        try (Stream<String> lines = Files.lines(path)) {
+            lines.forEach(line -> System.out.println(line));
         } catch (IOException e) {
             e.printStackTrace();
         }

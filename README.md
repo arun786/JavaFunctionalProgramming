@@ -169,12 +169,10 @@ Defining a functional interface.
 ## Read a File
 
             public void readAFile() throws URISyntaxException {
-                final Path path = Paths.get(getClass().getClassLoader().getResource("java.txt").toURI());
-                try {
+                    final Path path = Paths.get(getClass().getClassLoader().getResource("java.txt").toURI());
                     try (Stream<String> lines = Files.lines(path)) {
                         lines.forEach(line -> System.out.println(line));
+                    } catch (IOException e) {
+                        e.printStackTrace();
                     }
-                } catch (IOException e) {
-                    e.printStackTrace();
                 }
-            }
