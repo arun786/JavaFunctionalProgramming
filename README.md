@@ -165,3 +165,16 @@ Defining a functional interface.
     
             String name = "You have to do it";
             name.chars().forEach(c -> System.out.println((char) c));
+            
+## Read a File
+
+            public void readAFile() throws URISyntaxException {
+                final Path path = Paths.get(getClass().getClassLoader().getResource("java.txt").toURI());
+                try {
+                    try (Stream<String> lines = Files.lines(path)) {
+                        lines.forEach(line -> System.out.println(line));
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
