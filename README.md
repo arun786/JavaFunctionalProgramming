@@ -176,3 +176,14 @@ Defining a functional interface.
                         e.printStackTrace();
                     }
                 }
+
+## List all the files in a directory
+              
+                public void readAllTheFilesInADirectory() throws URISyntaxException {
+                      final Path path = Paths.get(getClass().getClassLoader().getResource("chapter1").toURI());
+                      try (Stream<Path> list = Files.list(path)) {
+                          list.forEach(file -> System.out.println(file.getFileName()));
+                      } catch (IOException e) {
+                          e.printStackTrace();
+                      }
+                }
