@@ -219,3 +219,20 @@ Defining a functional interface.
                             final List<String> filteredColor = colors.stream().filter(color -> color.length() > 2 && color.length() < 5).collect(Collectors.toList());
                             filteredColor.forEach(System.out::println);
                         }
+                        
+                        public static void useOfFilterAndMap() {
+                             Stream.of(1, 2, 3, 4, 5, 6).map(n -> n * n).forEach(System.out::println);
+                         }
+                     
+                         public static void useOfFilterWithMap(){
+                             Map<Integer, String> numbers = new HashMap<>();
+                             numbers.put(1,"one");
+                             numbers.put(2,"two");
+                             numbers.put(3,"three");
+                             numbers.put(4,"four");
+                             numbers.put(5,"five");
+                             numbers.put(6,"six");
+                     
+                             final Map<Integer, String> filteredMap = numbers.entrySet().stream().filter(number -> number.getKey().intValue() <= 4).collect(Collectors.toMap(n -> n.getKey(), n -> n.getValue()));
+                             System.out.println(filteredMap);
+                         }
