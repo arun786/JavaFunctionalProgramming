@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcdaf7fb-dbc7-4b7b-91e7-ea5e8f03a10b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/chapter1/Step3_Files.java" afterPath="$PROJECT_DIR$/src/main/java/chapter1/Step3_Files.java" />
     </list>
     <ignored path="JavaFunctionalProgramming.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,7 +40,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="357">
-                <caret line="208" column="21" selection-start-line="208" selection-start-column="21" selection-end-line="208" selection-end-column="21" />
+                <caret line="220" column="25" selection-start-line="220" selection-start-column="25" selection-end-line="220" selection-end-column="25" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -117,6 +115,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Step4_UseOfFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chapter1/Step4_UseOfFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="21" column="5" selection-start-line="17" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -142,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/main/java/chapter1/Step2_Lambda.java" />
         <option value="$PROJECT_DIR$/src/main/resources/java.txt" />
         <option value="$PROJECT_DIR$/src/main/java/chapter1/Step3_Files.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chapter1/Step4_UseOfFilter.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -318,7 +329,7 @@
       <recent name="C:\Users\Adwiti\Desktop\workspace\JavaFunctionalProgramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Step3_Files">
+  <component name="RunManager" selected="Application.Step4_UseOfFilter">
     <configuration default="false" name="Step1_FunctionalInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -367,6 +378,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="chapter1.Step3_Files" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaFunctionalProgramming" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Step4_UseOfFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="chapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="chapter1.Step4_UseOfFilter" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -802,16 +833,18 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Step1_FunctionalInterface" />
       <item index="1" class="java.lang.String" itemvalue="Application.Step2_Lambda" />
       <item index="2" class="java.lang.String" itemvalue="Application.Step3_Files" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Step4_UseOfFilter" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.Step3_Files" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Step2_Lambda" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Step1_FunctionalInterface" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.Step4_UseOfFilter" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Step3_Files" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Step2_Lambda" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Step1_FunctionalInterface" />
       </list>
     </recent_temporary>
   </component>
@@ -846,7 +879,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39010358" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.65362483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25086308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24464668" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1063,6 +1096,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter1/Step4_UseOfFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="21" column="5" selection-start-line="17" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -1078,7 +1121,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="357">
-            <caret line="208" column="21" selection-start-line="208" selection-start-column="21" selection-end-line="208" selection-end-column="21" />
+            <caret line="220" column="25" selection-start-line="220" selection-start-column="25" selection-end-line="220" selection-end-column="25" />
             <folding />
           </first_editor>
           <second_editor />

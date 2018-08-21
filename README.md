@@ -207,3 +207,15 @@ Defining a functional interface.
                          */
                         IntStream.rangeClosed(0, 10).forEach(d -> System.out.println(d));
                     }
+                    
+
+
+## Use Of Filter
+
+                    Stream.of("one", "two", "three", "four", "five", "six").filter(number -> number.length() < 4).forEach(System.out::println);
+                    
+                     public static void filterWithMultipleConditions() {
+                            List<String> colors = Arrays.asList("red", "green", "yellow", "blue", "maroon", "yellow");
+                            final List<String> filteredColor = colors.stream().filter(color -> color.length() > 2 && color.length() < 5).collect(Collectors.toList());
+                            filteredColor.forEach(System.out::println);
+                        }
