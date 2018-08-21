@@ -187,3 +187,23 @@ Defining a functional interface.
                           e.printStackTrace();
                       }
                 }
+                
+## To use Stream.iterate
+
+                public void toPrintInfiniteSequenceOfOddNumbers() {
+                        Stream.iterate(1, pn -> pn + 2).limit(10).forEach(odd -> System.out.println(odd));
+                    }
+                    
+## Use of IntStream for range and rangeClosed
+
+                public void toGetRangeOfNumbers() {
+                        /**
+                         * range does not include the end number
+                         */
+                        IntStream.range(0, 10).forEach(d -> System.out.println(d));
+                        System.out.println("--------------");
+                        /**
+                         * range closed includes the end number
+                         */
+                        IntStream.rangeClosed(0, 10).forEach(d -> System.out.println(d));
+                    }
