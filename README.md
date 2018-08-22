@@ -224,15 +224,28 @@ Defining a functional interface.
                              Stream.of(1, 2, 3, 4, 5, 6).map(n -> n * n).forEach(System.out::println);
                          }
                      
-                         public static void useOfFilterWithMap(){
-                             Map<Integer, String> numbers = new HashMap<>();
-                             numbers.put(1,"one");
-                             numbers.put(2,"two");
-                             numbers.put(3,"three");
-                             numbers.put(4,"four");
-                             numbers.put(5,"five");
-                             numbers.put(6,"six");
-                     
-                             final Map<Integer, String> filteredMap = numbers.entrySet().stream().filter(number -> number.getKey().intValue() <= 4).collect(Collectors.toMap(n -> n.getKey(), n -> n.getValue()));
-                             System.out.println(filteredMap);
-                         }
+                        public static void useOfFilterWithMap() {
+                                Map<Integer, String> numbers = new HashMap<>();
+                                numbers.put(1, "one");
+                                numbers.put(2, "two");
+                                numbers.put(3, "three");
+                                numbers.put(4, "four");
+                                numbers.put(5, "five");
+                                numbers.put(6, "six");
+                        
+                                final Map<Integer, String> filteredMap = numbers.entrySet().stream().filter(number -> number.getKey().intValue() <= 4).collect(Collectors.toMap(n -> n.getKey(), n -> n.getValue()));
+                                System.out.println(filteredMap);
+                                /*
+                                {1=one, 2=two, 3=three, 4=four}
+                                 */
+                        
+                                /**
+                                 * filter both by key and value
+                                 */
+                                final Map<Integer, String> filterBasedOnKeyAndValue = numbers.entrySet().stream().filter(number -> number.getKey().intValue() < 4).filter(number -> number.getValue().startsWith("t")).collect(Collectors.toMap(map -> map.getKey(), map -> map.getValue()));
+                        
+                                System.out.println(filterBasedOnKeyAndValue);
+                                /*
+                                {2=two, 3=three}
+                                 */
+                            }

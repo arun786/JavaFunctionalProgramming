@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcdaf7fb-dbc7-4b7b-91e7-ea5e8f03a10b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/chapter1/Step4_UseOfFilter.java" afterPath="$PROJECT_DIR$/src/main/java/chapter1/Step4_UseOfFilter.java" />
     </list>
@@ -40,8 +41,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="100">
-                <caret line="222" column="24" selection-start-line="222" selection-start-column="24" selection-end-line="222" selection-end-column="24" />
+              <first_editor relative-caret-position="518">
+                <caret line="250" column="29" selection-start-line="250" selection-start-column="29" selection-end-line="250" selection-end-column="29" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -74,7 +75,7 @@
       <file leaf-file-name="Step3_Files.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/chapter1/Step3_Files.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
+            <state relative-caret-position="1144">
               <caret line="58" column="5" selection-start-line="48" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -109,9 +110,22 @@
       <file leaf-file-name="IntStream.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/stream/IntStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
+            <state relative-caret-position="16874">
               <caret line="819" column="76" selection-start-line="819" selection-start-column="64" selection-end-line="819" selection-end-column="76" />
-              <folding />
+              <folding>
+                <element signature="e#0#35772#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#27689#27690#0" expanded="false" />
+                <element signature="e#27746#27747#0" expanded="false" />
+                <element signature="e#27904#27905#0" expanded="false" />
+                <element signature="e#27993#27994#0" expanded="false" />
+                <element signature="e#28212#28213#0" expanded="false" />
+                <element signature="e#28302#28303#0" expanded="false" />
+                <element signature="e#28540#28541#0" expanded="false" />
+                <element signature="e#28584#28585#0" expanded="false" />
+                <element signature="e#29654#29655#0" expanded="false" />
+                <element signature="e#29697#29698#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,12 +133,10 @@
       <file leaf-file-name="Step4_UseOfFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/chapter1/Step4_UseOfFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+            <state relative-caret-position="540">
+              <caret line="55" column="5" selection-start-line="31" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
-                <element signature="e#1036#1037#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -203,6 +215,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -316,8 +330,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -934,6 +946,106 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
+          <first_editor relative-caret-position="4884">
+            <caret line="222" column="24" selection-start-line="222" selection-start-column="24" selection-end-line="222" selection-end-column="24" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter1/Step1_FunctionalInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2508">
+          <caret line="114" column="11" selection-start-line="25" selection-start-column="8" selection-end-line="114" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter1/Step2_Lambda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter1/Step3_Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="58" column="5" selection-start-line="48" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/java.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/nio/file/Path.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2134">
+          <caret line="97" column="17" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#35363#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/stream/IntStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18018">
+          <caret line="819" column="76" selection-start-line="819" selection-start-column="64" selection-end-line="819" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#35772#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#27689#27690#0" expanded="false" />
+            <element signature="e#27746#27747#0" expanded="false" />
+            <element signature="e#27904#27905#0" expanded="false" />
+            <element signature="e#27993#27994#0" expanded="false" />
+            <element signature="e#28212#28213#0" expanded="false" />
+            <element signature="e#28302#28303#0" expanded="false" />
+            <element signature="e#28540#28541#0" expanded="false" />
+            <element signature="e#28584#28585#0" expanded="false" />
+            <element signature="e#29654#29655#0" expanded="false" />
+            <element signature="e#29697#29698#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter1/Step4_UseOfFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
           <first_editor relative-caret-position="3982">
             <caret line="181" column="80" selection-start-line="181" selection-start-column="80" selection-end-line="181" selection-end-column="80" />
             <folding />
@@ -1083,15 +1195,28 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/stream/IntStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
+        <state relative-caret-position="16874">
           <caret line="819" column="76" selection-start-line="819" selection-start-column="64" selection-end-line="819" selection-end-column="76" />
-          <folding />
+          <folding>
+            <element signature="e#0#35772#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#27689#27690#0" expanded="false" />
+            <element signature="e#27746#27747#0" expanded="false" />
+            <element signature="e#27904#27905#0" expanded="false" />
+            <element signature="e#27993#27994#0" expanded="false" />
+            <element signature="e#28212#28213#0" expanded="false" />
+            <element signature="e#28302#28303#0" expanded="false" />
+            <element signature="e#28540#28541#0" expanded="false" />
+            <element signature="e#28584#28585#0" expanded="false" />
+            <element signature="e#29654#29655#0" expanded="false" />
+            <element signature="e#29697#29698#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chapter1/Step3_Files.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
+        <state relative-caret-position="1144">
           <caret line="58" column="5" selection-start-line="48" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1101,12 +1226,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chapter1/Step4_UseOfFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        <state relative-caret-position="540">
+          <caret line="55" column="5" selection-start-line="31" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1125,8 +1248,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="100">
-            <caret line="222" column="24" selection-start-line="222" selection-start-column="24" selection-end-line="222" selection-end-column="24" />
+          <first_editor relative-caret-position="518">
+            <caret line="250" column="29" selection-start-line="250" selection-start-column="29" selection-end-line="250" selection-end-column="29" />
             <folding />
           </first_editor>
           <second_editor />
